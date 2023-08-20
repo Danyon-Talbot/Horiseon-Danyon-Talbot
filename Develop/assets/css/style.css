@@ -4,54 +4,38 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*
-.header div ul {
-    list-style-type: none;
-}
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-*/
 a {
     color: #ffffff;
     text-decoration: none;
     margin-right: 10px;
 }
 
-p {
-    font-size: 20px; /*original 16px */
-}
-
-.hero {
+.banner-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,6 +43,93 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px; 
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+#section-1 {
+    max-width: 70%;
+    float: left;
+ }
+
+ 
+
+.content-text {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    
+}
+
+ .content-image {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+    
+ }
+
+ .content-image-2 {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+ }
+
+ #aside-1 { 
+    display: block;
+    margin-right: 25px;
+    padding: 20px;
+    float: right;
+    width: 25%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+ }
+
+
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+ 
+.benefit-img {
+    display: block;
+    margin: 10px auto;
+    margin-top: 50px;
+    max-width: 150px;
+ }
+
+ footer {
+    padding: 30px;
+    clear: both;
+    font-size: 20px;
+    float: bottom;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
 
 
 
@@ -79,26 +150,19 @@ p {
     margin-left: 20px;
 }
 */
-.benefits {
+/* .benefits {
     margin-right: 20px;
     padding: 20px;
-    /*
     clear: both;
-    */
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
+} */
 
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
+/* .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -106,17 +170,9 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px; 
-}
 
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 /* 
 .benefit-lead h3 {
@@ -149,7 +205,7 @@ h3 {
     font-size: 36px;
 } */
 
-.benefit-lead img {
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -165,34 +221,7 @@ h3 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.content-text {
-    width: 75%;
-    text-align: left;
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    
-}
-
- .content-image {
-    max-height: 200px;
-    float: left;
-    margin-right: 25px;
-    
- }
-
- .content-image-2 {
-    max-height: 200px;
-    float: right;
-    margin-left: 25px;
- }
+} */
 
 /*
 .search-engine-optimization {
@@ -234,13 +263,3 @@ h3 {
     max-height: 200px;
 }
 */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
