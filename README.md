@@ -9,13 +9,19 @@ What problem does this solve?: This project solves Horiseon's website accessibil
 
 What did I learn?: I learned how different semantic HTML elements, such as nav, section or aside, can be used to alter how a website looks and it's code functions.
 
-'''md
-![website-preview](Assets/Horiseon-Home-Page.png)
-'''
+![Horiseon-Home-Page](https://github.com/Danyon-Talbot/Horiseon-Home-Page/assets/141638302/8648e0cd-0543-48b7-831c-fa4d57e1e90a)
 
 
 ## Installation 
 No installation is required.
 
 ## Usage
-The following link will take you to the page:
+The following link will take you to the page: https://danyon-talbot.github.io/Horiseon-Home-Page/
+
+### Credits
+
+* https://www.w3schools.com/
+
+* https://www.w3.org/WAI/fundamentals/accessibility-intro/
+
+* https://developer.mozilla.org/en-US/
