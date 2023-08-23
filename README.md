@@ -16,7 +16,7 @@ What did I learn?: I learned how different semantic HTML elements, such as nav, 
 No installation is required.
 
 ## Usage
-The following link will take you to the page: https://danyon-talbot.github.io/Horiseon-Home-Page/
+The following link will take you to the page: https://danyon-talbot.github.io/Horiseon-Danyon-Talbot/
 
 ### Credits
 
