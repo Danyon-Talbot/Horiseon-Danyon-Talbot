@@ -7,7 +7,7 @@ What problem does this solve?: This project solves Horiseon's website accessibil
 What did I learn?: I learned how different semantic HTML elements, such as nav, section or aside, can be used to alter how a website looks and it's code functions.
 
 '''md
-![website-preview](Assets\website-preview.png)
+![website-preview](Assets\Horiseon-Home-Page.png)
 '''
 
 
